@@ -48,7 +48,7 @@ func main() {
 
 	err = router.Run("127.0.0.1:3003")
 	if err != nil {
-		panic("Error Starting UserMgtMs")
+		panic("Error Starting ProductMgtMs")
 	}
 
 }
