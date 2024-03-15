@@ -31,7 +31,7 @@ func (repository *ProductRepositoryImpl) CreateProduct(shardID int64,
                       category_id, 
                       media_type,
                       media_path
-            );`
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) ;`
 	_, err = db.Exec(qry,
 		idResp.ID,
 		idResp.BitCount,
@@ -67,7 +67,7 @@ func (repository *ProductRepositoryImpl) FindProduct(shardID int64, productID st
 			media_type,
 			media_path, 
 			created_at, 
-			updated_at WHERE id=?;`
+			updated_at FROM products WHERE id=?;`
 	row := db.QueryRow(qry, productID)
 	var resp productmgtmodel.Product
 	err = row.Scan(&resp.ID,

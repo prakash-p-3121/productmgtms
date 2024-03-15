@@ -23,7 +23,7 @@ func (controller *ProductControllerImpl) CreateProduct(restCtx restlib.RestConte
 	var req productmgtmodel.ProductCreateReq
 	err := ctx.BindJSON(&req)
 	if err != nil {
-		badReqErr := errorlib.NewBadReqError("payload-serialization")
+		badReqErr := errorlib.NewBadReqError("payload-serialization" + err.Error())
 		badReqErr.SendRestResponse(ctx)
 		return
 	}

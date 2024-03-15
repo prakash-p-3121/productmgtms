@@ -5,6 +5,7 @@ import (
 	"github.com/prakash-p-3121/mysqllib"
 	"github.com/prakash-p-3121/productmgtms/cfg"
 	"github.com/prakash-p-3121/productmgtms/controller/category_controller"
+	"github.com/prakash-p-3121/productmgtms/controller/product_controller"
 	"github.com/prakash-p-3121/productmgtms/database"
 	"github.com/prakash-p-3121/restlib"
 )
@@ -45,6 +46,8 @@ func main() {
 
 	routerGroup.POST("/v1/category", category_controller.CreateCategory)
 	routerGroup.GET("/v1/category", category_controller.FindCategory)
+	routerGroup.POST("/v1/product", product_controller.CreateProduct)
+	routerGroup.GET("/v1/product", product_controller.FindProduct)
 
 	err = router.Run("127.0.0.1:3003")
 	if err != nil {
