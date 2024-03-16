@@ -4,9 +4,9 @@ go 1.22.1
 
 require (
 	github.com/gin-gonic/gin v1.9.1
-	github.com/prakash-p-3121/database-clustermgt-client v0.0.5
+	github.com/prakash-p-3121/database-clustermgt-client v0.0.6
 	github.com/prakash-p-3121/errorlib v0.0.8
-	github.com/prakash-p-3121/idgenclient v0.0.3
+	github.com/prakash-p-3121/idgenclient v0.0.4
 	github.com/prakash-p-3121/idgenmodel v0.0.3
 	github.com/prakash-p-3121/mysqllib v0.0.18
 	github.com/prakash-p-3121/productmgtmodel v0.0.5
@@ -34,7 +34,7 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pelletier/go-toml/v2 v2.1.1 // indirect
 	github.com/prakash-p-3121/database-clustermgt-model v0.0.7 // indirect
-	github.com/prakash-p-3121/restclientlib v0.0.3 // indirect
+	github.com/prakash-p-3121/restclientlib v0.0.4 // indirect
 	github.com/prakash-p-3121/tomllib v0.0.2 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
 	github.com/ugorji/go/codec v1.2.12 // indirect
