@@ -68,8 +68,10 @@ github.com/prakash-p-3121/idgenmodel v0.0.3 h1:HKYF2hJIjrFHGGcSMW/5dpG2vNSZ0TMum
 github.com/prakash-p-3121/idgenmodel v0.0.3/go.mod h1:bMCgB11ypDvYe3PC04Yo+u3nt+gVIDh62jUPSrHA/4w=
 github.com/prakash-p-3121/mysqllib v0.0.18 h1:0hFVfly4xjhaL3WI6db0DFdv2jZb/MnEng8RlfVljwM=
 github.com/prakash-p-3121/mysqllib v0.0.18/go.mod h1:gpjSYumstiESELA3PXihK0JJELB5oJcSWxsPoqhuSHE=
-github.com/prakash-p-3121/productmgtmodel v0.0.3 h1:tgG6xhMkjP0qOqEA8pQhqx/MlSdN93Gr6cDpPsOU4CU=
-github.com/prakash-p-3121/productmgtmodel v0.0.3/go.mod h1:3XOsuOxcmcd1fjbJDrKMY5PwtKi6trUQ39LHDCTzbOM=
+github.com/prakash-p-3121/productmgtmodel v0.0.4 h1:v3NJvGLvqSNpxo7DhIVOPIv+7XnztKtQA88SMiCH160=
+github.com/prakash-p-3121/productmgtmodel v0.0.4/go.mod h1:3XOsuOxcmcd1fjbJDrKMY5PwtKi6trUQ39LHDCTzbOM=
+github.com/prakash-p-3121/productmgtmodel v0.0.5 h1:faNSlfur1+30UdQeQKJ7jLu0dbkdNA33rGlhxXGawpE=
+github.com/prakash-p-3121/productmgtmodel v0.0.5/go.mod h1:3XOsuOxcmcd1fjbJDrKMY5PwtKi6trUQ39LHDCTzbOM=
 github.com/prakash-p-3121/restclientlib v0.0.3 h1:Gc2NuVr0+ePB5gy8Z24Lsx65RLE9BxB/CzZbPw4VL90=
 github.com/prakash-p-3121/restclientlib v0.0.3/go.mod h1:a2m9vpml9YEGoceZaCeFz2UHo9KtSnDbN6jTsMUGNTo=
 github.com/prakash-p-3121/restlib v0.0.11 h1:LXxVuaKI8kgliioE4FugfRk4TmufTqRd03RvKkKngKw=

@@ -9,8 +9,9 @@ var shardIDToDatabaseConnectionMap *sync.Map
 var singleStoreDatabaseConnection *sql.DB
 
 const (
-	CategoriesTable string = "categories"
-	ProductsTable   string = "products"
+	CategoriesTable          string = "categories"
+	ProductsTable            string = "products"
+	MarketplaceListingsTable string = "marketplace_listings"
 )
 
 func SetShardConnectionsMap(connectionsMap *sync.Map) {

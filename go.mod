@@ -9,7 +9,7 @@ require (
 	github.com/prakash-p-3121/idgenclient v0.0.3
 	github.com/prakash-p-3121/idgenmodel v0.0.3
 	github.com/prakash-p-3121/mysqllib v0.0.18
-	github.com/prakash-p-3121/productmgtmodel v0.0.3
+	github.com/prakash-p-3121/productmgtmodel v0.0.5
 	github.com/prakash-p-3121/restlib v0.0.11
 )
 
